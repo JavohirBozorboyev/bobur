@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: "Montserrat", serif;
+}
+
+.bg1 {
+  background: linear-gradient(
+      rgba(95, 255, 234, 0.37),
+      rgba(255, 254, 204, 0.712)
+    ),
+    url(https://cdn.culture.ru/images/6b4794ac-41f0-5145-a3b2-3a4abaabf84e);
+  background-size: cover;
+  background-position: center bottom;
+  background-attachment: fixed;
+}

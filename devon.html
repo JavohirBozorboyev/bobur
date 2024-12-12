@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bobur Devoni</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div
+      class="min-h-screen flex flex-col flex-auto flex-shrink-0 antialiased bg-gray-50 text-gray-800"
+    >
+      <div
+        class="fixed hidden md:block flex flex-col top-0 left-0 w-64 2xl:w-80 bg-white h-full border-r"
+      >
+        <div class="flex items-center justify-center border-b p-2 2xl:p-4 py-4">
+          <div class="flex flex-col items-center justify-center">
+            <img
+              src="https://avatars.dzeninfra.ru/get-zen_doc/271828/pub_65da5f25fb98fa6a95fff0a6_65da5fb8dae8685e4f080919/scale_1200"
+              alt=""
+              class="w-full h-44 rounded-2xl object-cover"
+            />
+            <h1 class="mt-4 text-center font-medium uppercase">
+              Zahiriddin Muhammad Bobur
+            </h1>
+          </div>
+        </div>
+        <nav class="overflow-y-auto overflow-x-hidden flex-grow p-4">
+          <article class="flex flex-col space-y-3" id="nav"></article>
+        </nav>
+      </div>
+      <main class="md:ml-64 2xl:ml-80 flex-grow p-4">
+        <article
+          class="bg-teal-400 rounded-2xl flex items-center justify-center flex-col p-10 py-20 shadow shadow-teal-400"
+        >
+          <h1
+            class="text-xl md:text-2xl font-bold text-white lg:text-3xl xl:text-4xl text-center"
+          >
+            Zahiriddin Muhammad Bobur ibn <br />
+            Umarshayx Mirzo
+          </h1>
+          <div class="mt-10 bg-teal-200 p-4 rounded-lg">
+            <input
+              id="inp"
+              type="search"
+              class="p-2 px-3 rounded-md w-80 outline-none"
+              placeholder="Qidirish"
+            />
+            <button
+              id="btn"
+              class="bg-teal-400 p-2 rounded-md px-4 text-white uppercase active:scale-95 duration-300"
+            >
+              Qidirish
+            </button>
+          </div>
+        </article>
+        <article
+          class="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-5 bg-white mt-10 p-4 shadow rounded-lg select-none"
+          id="list"
+        ></article>
+      </main>
+    </div>
+
+    <script src="js/nav.js"></script>
+    <script src="js/devon.js"></script>
+  </body>
+</html>
